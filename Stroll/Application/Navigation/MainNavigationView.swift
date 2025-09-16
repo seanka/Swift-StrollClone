@@ -10,6 +10,8 @@ import SwiftUI
 struct MainNavigationView: View {
     @EnvironmentObject var router: AppRouter
     
+    var dependencyContainer: DependencyContainer
+    
     var body: some View {
         NavigationStack(path: $router.path) {
             TabView(selection: $router.route) {
@@ -21,7 +23,7 @@ struct MainNavigationView: View {
                     .tabItem { Label("Bonfire", systemImage: "square.and.arrow.up") }
                     .tag(AppRoute.bonfire)
                 
-                MatchesView()
+                MatchesView(viewModel: dependencyContainer.provideMatchesViewModel())
                     .tabItem { Label("Matches", systemImage: "square.and.arrow.up") }
                     .tag(AppRoute.matches)
                 
