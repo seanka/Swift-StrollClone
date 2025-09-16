@@ -3,37 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
-/* Begin PBXFileReference section */
-		B44B3E532E78F8BB00BFCE9D /* Stroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		B2CE59C8C732B8009184A94E /* Pods_Stroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F14E3E2744A4474B043AD38B /* Pods_Stroll.framework */; };
+		B4D15F702E78F94E00A3B321 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D15F6A2E78F94E00A3B321 /* Preview Assets.xcassets */; };
+		B4D15F712E78F94E00A3B321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D15F6C2E78F94E00A3B321 /* Assets.xcassets */; };
+		B4D15F732E78F94E00A3B321 /* StrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D15F6E2E78F94E00A3B321 /* StrollApp.swift */; };
+		B4D15F7E2E78FACD00A3B321 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B4D15F7D2E78FACD00A3B321 /* README.md */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B44B3E552E78F8BB00BFCE9D /* Stroll */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Stroll;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		171FC77023ED2F0C68739643 /* Pods-Stroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stroll.debug.xcconfig"; path = "Target Support Files/Pods-Stroll/Pods-Stroll.debug.xcconfig"; sourceTree = "<group>"; };
+		374F7129A8DEB42E54A1E961 /* Pods-Stroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stroll.release.xcconfig"; path = "Target Support Files/Pods-Stroll/Pods-Stroll.release.xcconfig"; sourceTree = "<group>"; };
+		B44B3E532E78F8BB00BFCE9D /* Stroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D15F6A2E78F94E00A3B321 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4D15F6C2E78F94E00A3B321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4D15F6E2E78F94E00A3B321 /* StrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrollApp.swift; sourceTree = "<group>"; };
+		B4D15F7D2E78FACD00A3B321 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F14E3E2744A4474B043AD38B /* Pods_Stroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B44B3E502E78F8BA00BFCE9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2CE59C8C732B8009184A94E /* Pods_Stroll.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B8A07674BC6222A236200B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F14E3E2744A4474B043AD38B /* Pods_Stroll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840D63C6A39772FB15ECE2EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				171FC77023ED2F0C68739643 /* Pods-Stroll.debug.xcconfig */,
+				374F7129A8DEB42E54A1E961 /* Pods-Stroll.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B44B3E4A2E78F8BA00BFCE9D = {
 			isa = PBXGroup;
 			children = (
-				B44B3E552E78F8BB00BFCE9D /* Stroll */,
+				B4D15F6F2E78F94E00A3B321 /* Stroll */,
 				B44B3E542E78F8BB00BFCE9D /* Products */,
+				840D63C6A39772FB15ECE2EF /* Pods */,
+				6B8A07674BC6222A236200B2 /* Frameworks */,
+				B4D15F7D2E78FACD00A3B321 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +73,96 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B4D15F6B2E78F94E00A3B321 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4D15F6A2E78F94E00A3B321 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4D15F6F2E78F94E00A3B321 /* Stroll */ = {
+			isa = PBXGroup;
+			children = (
+				B4D15F772E78FA2A00A3B321 /* Application */,
+				B4D15F762E78FA0B00A3B321 /* Data */,
+				B4D15F752E78FA0700A3B321 /* Domain */,
+				B4D15F742E78FA0100A3B321 /* Presentation */,
+				B4D15F6C2E78F94E00A3B321 /* Assets.xcassets */,
+				B4D15F6B2E78F94E00A3B321 /* Preview Content */,
+			);
+			path = Stroll;
+			sourceTree = "<group>";
+		};
+		B4D15F742E78FA0100A3B321 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B4D15F752E78FA0700A3B321 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B4D15F7C2E78FA7000A3B321 /* Repository */,
+				B4D15F7B2E78FA6B00A3B321 /* Entities */,
+				B4D15F7A2E78FA6500A3B321 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B4D15F762E78FA0B00A3B321 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B4D15F792E78FA4700A3B321 /* Remotes */,
+				B4D15F782E78FA4200A3B321 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B4D15F772E78FA2A00A3B321 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B4D15F6E2E78F94E00A3B321 /* StrollApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B4D15F782E78FA4200A3B321 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B4D15F792E78FA4700A3B321 /* Remotes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remotes;
+			sourceTree = "<group>";
+		};
+		B4D15F7A2E78FA6500A3B321 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		B4D15F7B2E78FA6B00A3B321 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B4D15F7C2E78FA7000A3B321 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B44B3E612E78F8BC00BFCE9D /* Build configuration list for PBXNativeTarget "Stroll" */;
 			buildPhases = (
+				3062D0C0B68A88A4E192B4C8 /* [CP] Check Pods Manifest.lock */,
 				B44B3E4F2E78F8BA00BFCE9D /* Sources */,
 				B44B3E502E78F8BA00BFCE9D /* Frameworks */,
 				B44B3E512E78F8BA00BFCE9D /* Resources */,
@@ -60,12 +179,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				B44B3E552E78F8BB00BFCE9D /* Stroll */,
-			);
 			name = Stroll;
-			packageProductDependencies = (
-			);
 			productName = Stroll;
 			productReference = B44B3E532E78F8BB00BFCE9D /* Stroll.app */;
 			productType = "com.apple.product-type.application";
@@ -86,6 +200,7 @@
 				};
 			};
 			buildConfigurationList = B44B3E4E2E78F8BA00BFCE9D /* Build configuration list for PBXProject "Stroll" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,8 +208,6 @@
 				Base,
 			);
 			mainGroup = B44B3E4A2E78F8BA00BFCE9D;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = B44B3E542E78F8BB00BFCE9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -109,16 +222,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D15F7E2E78FACD00A3B321 /* README.md in Resources */,
+				B4D15F702E78F94E00A3B321 /* Preview Assets.xcassets in Resources */,
+				B4D15F712E78F94E00A3B321 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3062D0C0B68A88A4E192B4C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stroll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B44B3E4F2E78F8BA00BFCE9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D15F732E78F94E00A3B321 /* StrollApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +388,7 @@
 		};
 		B44B3E622E78F8BC00BFCE9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 171FC77023ED2F0C68739643 /* Pods-Stroll.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +418,7 @@
 		};
 		B44B3E632E78F8BC00BFCE9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374F7129A8DEB42E54A1E961 /* Pods-Stroll.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
