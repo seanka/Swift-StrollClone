@@ -57,10 +57,25 @@ struct MatchesChatView: View {
                     }
                 }
                 
-                Text(chat.message ?? "")
-                    .font(.system(size: 14, weight: chat.unread == true ? .semibold : .regular))
-                    .foregroundColor(chat.unread == true ? .white : .gray)
-                    .lineLimit(2)
+                // Last message
+                if chat.messageType == "MESSAGES" {
+                    Text(chat.message ?? "")
+                        .font(.system(size: 14, weight: chat.unread == true ? .semibold : .regular))
+                        .foregroundColor(chat.unread == true ? .white : .gray)
+                        .lineLimit(2)
+                } else if chat.messageType == "VOICE_NOTES" {
+                    HStack(spacing: 6) {
+                        Image(uiImage: UIImage(named: "ic_microphone_purple")!)
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                        Image(uiImage: UIImage(named: "ic_wave_purple")!)
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                        Text("00:58")
+                            .font(.system(size: 14, weight: .bold))
+                            .foregroundColor(Color(red: 176/255, green: 155/255, blue: 205/255))
+                    }
+                }
             }
             
             Spacer()
