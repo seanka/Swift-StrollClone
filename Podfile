@@ -6,5 +6,5 @@ target 'Stroll' do
   use_frameworks!
 
   # Pods for Stroll
-
+  pod 'Kingfisher', '7.6.2'
 end
