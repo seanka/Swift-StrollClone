@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct StrollApp: App {
+    @StateObject private var router: AppRouter = AppRouter()
+    
     var body: some Scene {
         WindowGroup {
-            Text("")
+            MainNavigationView()
+                .environmentObject(router)
         }
     }
 }
