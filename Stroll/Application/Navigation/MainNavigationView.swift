@@ -13,7 +13,21 @@ struct MainNavigationView: View {
     var body: some View {
         NavigationStack(path: $router.path) {
             TabView(selection: $router.route) {
+                CardsView()
+                    .tabItem { Label("Cards", systemImage: "square.and.arrow.up") }
+                    .tag(AppRoute.cards)
                 
+                BonfireView()
+                    .tabItem { Label("Bonfire", systemImage: "square.and.arrow.up") }
+                    .tag(AppRoute.bonfire)
+                
+                MatchesView()
+                    .tabItem { Label("Matches", systemImage: "square.and.arrow.up") }
+                    .tag(AppRoute.matches)
+                
+                ProfileView()
+                    .tabItem { Label("Profile", systemImage: "square.and.arrow.up") }
+                    .tag(AppRoute.profile)
             }
             .navigationDestination(for: AppRoute.self) { route in
                 switch route {
