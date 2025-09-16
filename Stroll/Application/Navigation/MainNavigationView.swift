@@ -17,6 +17,7 @@ struct MainNavigationView: View {
             TabView(selection: $router.route) {
                 CardsView()
                     .tabItem { Label("Cards", systemImage: "square.and.arrow.up") }
+                    .badge(10)
                     .tag(AppRoute.cards)
                 
                 BonfireView()
