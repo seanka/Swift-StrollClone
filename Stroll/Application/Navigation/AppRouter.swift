@@ -8,7 +8,7 @@
 import Foundation
 
 final class AppRouter: ObservableObject {
-    @Published var route: AppRoute = .bonfire
+    @Published var route: AppRoute = .matches
     @Published var path: [AppRoute] = []
     
 }

@@ -12,6 +12,14 @@
 		B46214832E7900AE00BE6F37 /* BonfireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214822E7900AE00BE6F37 /* BonfireView.swift */; };
 		B46214852E7900B600BE6F37 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214842E7900B600BE6F37 /* MatchesView.swift */; };
 		B46214872E7900BE00BE6F37 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214862E7900BE00BE6F37 /* ProfileView.swift */; };
+		B462148A2E7903AC00BE6F37 /* MatchesHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214892E7903AC00BE6F37 /* MatchesHeader.swift */; };
+		B462148C2E79138C00BE6F37 /* MatchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462148B2E79138A00BE6F37 /* MatchesViewModel.swift */; };
+		B46214902E79160900BE6F37 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B462148F2E79160400BE6F37 /* DependencyContainer.swift */; };
+		B46214922E7923CF00BE6F37 /* MatchesHighlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214912E7923CF00BE6F37 /* MatchesHighlightView.swift */; };
+		B46214942E7927C200BE6F37 /* MatchesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214932E7927B900BE6F37 /* MatchesTab.swift */; };
+		B46214962E792FEE00BE6F37 /* MatchesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214952E792FEC00BE6F37 /* MatchesTabView.swift */; };
+		B46214982E7932FE00BE6F37 /* Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214972E7932FD00BE6F37 /* Matches.swift */; };
+		B462149A2E7936DB00BE6F37 /* MatchesChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46214992E7936BD00BE6F37 /* MatchesChatView.swift */; };
 		B4D15F702E78F94E00A3B321 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D15F6A2E78F94E00A3B321 /* Preview Assets.xcassets */; };
 		B4D15F712E78F94E00A3B321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D15F6C2E78F94E00A3B321 /* Assets.xcassets */; };
 		B4D15F732E78F94E00A3B321 /* StrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D15F6E2E78F94E00A3B321 /* StrollApp.swift */; };
@@ -29,6 +37,14 @@
 		B46214822E7900AE00BE6F37 /* BonfireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonfireView.swift; sourceTree = "<group>"; };
 		B46214842E7900B600BE6F37 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
 		B46214862E7900BE00BE6F37 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B46214892E7903AC00BE6F37 /* MatchesHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesHeader.swift; sourceTree = "<group>"; };
+		B462148B2E79138A00BE6F37 /* MatchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewModel.swift; sourceTree = "<group>"; };
+		B462148F2E79160400BE6F37 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		B46214912E7923CF00BE6F37 /* MatchesHighlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesHighlightView.swift; sourceTree = "<group>"; };
+		B46214932E7927B900BE6F37 /* MatchesTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTab.swift; sourceTree = "<group>"; };
+		B46214952E792FEC00BE6F37 /* MatchesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesTabView.swift; sourceTree = "<group>"; };
+		B46214972E7932FD00BE6F37 /* Matches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matches.swift; sourceTree = "<group>"; };
+		B46214992E7936BD00BE6F37 /* MatchesChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesChatView.swift; sourceTree = "<group>"; };
 		B4D15F6A2E78F94E00A3B321 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B4D15F6C2E78F94E00A3B321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4D15F6E2E78F94E00A3B321 /* StrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrollApp.swift; sourceTree = "<group>"; };
@@ -141,6 +157,7 @@
 		B462147A2E79007E00BE6F37 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B462148B2E79138A00BE6F37 /* MatchesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -148,6 +165,7 @@
 		B462147B2E79008200BE6F37 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B46214882E79039800BE6F37 /* Components */,
 				B46214842E7900B600BE6F37 /* MatchesView.swift */,
 			);
 			path = Views;
@@ -181,6 +199,17 @@
 				B46214802E79009F00BE6F37 /* CardsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B46214882E79039800BE6F37 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B46214992E7936BD00BE6F37 /* MatchesChatView.swift */,
+				B46214952E792FEC00BE6F37 /* MatchesTabView.swift */,
+				B46214892E7903AC00BE6F37 /* MatchesHeader.swift */,
+				B46214912E7923CF00BE6F37 /* MatchesHighlightView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		B4D15F6B2E78F94E00A3B321 /* Preview Content */ = {
@@ -267,6 +296,7 @@
 		B4D15F7B2E78FA6B00A3B321 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				B46214972E7932FD00BE6F37 /* Matches.swift */,
 				B4D15F802E78FB9200A3B321 /* Application */,
 			);
 			path = Entities;
@@ -284,6 +314,7 @@
 			children = (
 				B4D15F832E78FC2600A3B321 /* AppRouter.swift */,
 				B4D15F852E78FC7500A3B321 /* MainNavigationView.swift */,
+				B462148F2E79160400BE6F37 /* DependencyContainer.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -291,6 +322,7 @@
 		B4D15F802E78FB9200A3B321 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				B46214932E7927B900BE6F37 /* MatchesTab.swift */,
 				B4D15F812E78FBA300A3B321 /* AppRoute.swift */,
 			);
 			path = Application;
@@ -307,6 +339,7 @@
 				B44B3E4F2E78F8BA00BFCE9D /* Sources */,
 				B44B3E502E78F8BA00BFCE9D /* Frameworks */,
 				B44B3E512E78F8BA00BFCE9D /* Resources */,
+				8439EF9CA000CD26C4DDA63C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -386,6 +419,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8439EF9CA000CD26C4DDA63C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stroll/Pods-Stroll-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stroll/Pods-Stroll-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stroll/Pods-Stroll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -393,13 +443,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B462149A2E7936DB00BE6F37 /* MatchesChatView.swift in Sources */,
+				B462148A2E7903AC00BE6F37 /* MatchesHeader.swift in Sources */,
+				B46214942E7927C200BE6F37 /* MatchesTab.swift in Sources */,
 				B46214872E7900BE00BE6F37 /* ProfileView.swift in Sources */,
 				B46214832E7900AE00BE6F37 /* BonfireView.swift in Sources */,
 				B46214852E7900B600BE6F37 /* MatchesView.swift in Sources */,
 				B4D15F732E78F94E00A3B321 /* StrollApp.swift in Sources */,
 				B46214812E79009F00BE6F37 /* CardsView.swift in Sources */,
+				B462148C2E79138C00BE6F37 /* MatchesViewModel.swift in Sources */,
 				B4D15F822E78FBA500A3B321 /* AppRoute.swift in Sources */,
+				B46214922E7923CF00BE6F37 /* MatchesHighlightView.swift in Sources */,
 				B4D15F842E78FC2600A3B321 /* AppRouter.swift in Sources */,
+				B46214962E792FEE00BE6F37 /* MatchesTabView.swift in Sources */,
+				B46214982E7932FE00BE6F37 /* Matches.swift in Sources */,
+				B46214902E79160900BE6F37 /* DependencyContainer.swift in Sources */,
 				B4D15F862E78FC7500A3B321 /* MainNavigationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,6 +595,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Stroll/Preview Content\"";
 				DEVELOPMENT_TEAM = GHTUG2YU8H;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -567,6 +626,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Stroll/Preview Content\"";
 				DEVELOPMENT_TEAM = GHTUG2YU8H;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
